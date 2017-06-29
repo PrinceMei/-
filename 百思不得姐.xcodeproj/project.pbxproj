@@ -28,6 +28,7 @@
 		886C98EA1EEC2B7600C2C9FE /* MXPPushGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 886C98E91EEC2B7600C2C9FE /* MXPPushGuideView.m */; };
 		886C98EC1EEC2BEA00C2C9FE /* MXPPushGuideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 886C98EB1EEC2BEA00C2C9FE /* MXPPushGuideView.xib */; };
 		8887A70D1F038824009E736C /* MXPTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = 8887A70C1F038824009E736C /* MXPTopic.m */; };
+		8887A7101F0489B2009E736C /* MXPConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 8887A70F1F0489B2009E736C /* MXPConst.m */; };
 		889070C01D051E6700D505AB /* MXPRecommendUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 889070BE1D051E6700D505AB /* MXPRecommendUserCell.m */; };
 		889070C11D051E6700D505AB /* MXPRecommendUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 889070BF1D051E6700D505AB /* MXPRecommendUserCell.xib */; };
 		88D205431EE6CB25002AA218 /* MXPRecommendTagsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D205421EE6CB25002AA218 /* MXPRecommendTagsViewController.m */; };
@@ -108,6 +109,8 @@
 		886C98EB1EEC2BEA00C2C9FE /* MXPPushGuideView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXPPushGuideView.xib; sourceTree = "<group>"; };
 		8887A70B1F038824009E736C /* MXPTopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPTopic.h; sourceTree = "<group>"; };
 		8887A70C1F038824009E736C /* MXPTopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPTopic.m; sourceTree = "<group>"; };
+		8887A70E1F0489B2009E736C /* MXPConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPConst.h; sourceTree = "<group>"; };
+		8887A70F1F0489B2009E736C /* MXPConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPConst.m; sourceTree = "<group>"; };
 		889070BD1D051E6700D505AB /* MXPRecommendUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPRecommendUserCell.h; sourceTree = "<group>"; };
 		889070BE1D051E6700D505AB /* MXPRecommendUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPRecommendUserCell.m; sourceTree = "<group>"; };
 		889070BF1D051E6700D505AB /* MXPRecommendUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXPRecommendUserCell.xib; sourceTree = "<group>"; };
@@ -385,6 +388,8 @@
 				88251DEC1C71689800787D10 /* AppDelegate.h */,
 				88251DED1C71689800787D10 /* AppDelegate.m */,
 				88251DF81C71689800787D10 /* PrefixHeader.pch */,
+				8887A70E1F0489B2009E736C /* MXPConst.h */,
+				8887A70F1F0489B2009E736C /* MXPConst.m */,
 			);
 			path = "Other-其他";
 			sourceTree = "<group>";
@@ -687,6 +692,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8887A70D1F038824009E736C /* MXPTopic.m in Sources */,
+				8887A7101F0489B2009E736C /* MXPConst.m in Sources */,
 				8845249E1EF8C33A00AB4427 /* MXPAllViewController.m in Sources */,
 				88D2054F1EE81BAC002AA218 /* MXPLoginRegisterViewController.m in Sources */,
 				88F3CB191C7C845C0042CA14 /* MXPRecommendCategoryModel.m in Sources */,
