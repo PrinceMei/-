@@ -31,6 +31,7 @@
 		8887A7101F0489B2009E736C /* MXPConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 8887A70F1F0489B2009E736C /* MXPConst.m */; };
 		8887A7141F049E93009E736C /* MXPTopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8887A7121F049E93009E736C /* MXPTopicCell.m */; };
 		8887A7151F049E93009E736C /* MXPTopicCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8887A7131F049E93009E736C /* MXPTopicCell.xib */; };
+		8887A71E1F04DF4A009E736C /* NSDate+MXPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8887A71D1F04DF4A009E736C /* NSDate+MXPExtension.m */; };
 		889070C01D051E6700D505AB /* MXPRecommendUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 889070BE1D051E6700D505AB /* MXPRecommendUserCell.m */; };
 		889070C11D051E6700D505AB /* MXPRecommendUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 889070BF1D051E6700D505AB /* MXPRecommendUserCell.xib */; };
 		88D205431EE6CB25002AA218 /* MXPRecommendTagsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D205421EE6CB25002AA218 /* MXPRecommendTagsViewController.m */; };
@@ -116,6 +117,8 @@
 		8887A7111F049E93009E736C /* MXPTopicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPTopicCell.h; sourceTree = "<group>"; };
 		8887A7121F049E93009E736C /* MXPTopicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPTopicCell.m; sourceTree = "<group>"; };
 		8887A7131F049E93009E736C /* MXPTopicCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXPTopicCell.xib; sourceTree = "<group>"; };
+		8887A71C1F04DF49009E736C /* NSDate+MXPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+MXPExtension.h"; sourceTree = "<group>"; };
+		8887A71D1F04DF4A009E736C /* NSDate+MXPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+MXPExtension.m"; sourceTree = "<group>"; };
 		889070BD1D051E6700D505AB /* MXPRecommendUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPRecommendUserCell.h; sourceTree = "<group>"; };
 		889070BE1D051E6700D505AB /* MXPRecommendUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPRecommendUserCell.m; sourceTree = "<group>"; };
 		889070BF1D051E6700D505AB /* MXPRecommendUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXPRecommendUserCell.xib; sourceTree = "<group>"; };
@@ -410,6 +413,8 @@
 				88251DF01C71689800787D10 /* UIBarButtonItem+MXPExtension.m */,
 				88251DF11C71689800787D10 /* UIView+MXPExtension.h */,
 				88251DF21C71689800787D10 /* UIView+MXPExtension.m */,
+				8887A71C1F04DF49009E736C /* NSDate+MXPExtension.h */,
+				8887A71D1F04DF4A009E736C /* NSDate+MXPExtension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -706,6 +711,7 @@
 				88D2054F1EE81BAC002AA218 /* MXPLoginRegisterViewController.m in Sources */,
 				88F3CB191C7C845C0042CA14 /* MXPRecommendCategoryModel.m in Sources */,
 				88D205461EE6CF12002AA218 /* MXPRecommendTagsModel.m in Sources */,
+				8887A71E1F04DF4A009E736C /* NSDate+MXPExtension.m in Sources */,
 				88251E011C71689800787D10 /* UIBarButtonItem+MXPExtension.m in Sources */,
 				884524A41EF8C38300AB4427 /* MXPVoiceViewController.m in Sources */,
 				884524A11EF8C35A00AB4427 /* MXPVideoViewController.m in Sources */,
