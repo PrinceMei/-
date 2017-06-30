@@ -18,11 +18,7 @@
 		88251E031C71689800787D10 /* MXPTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88251DF51C71689800787D10 /* MXPTabBarController.m */; };
 		88251E041C71689800787D10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88251DF61C71689800787D10 /* main.m */; };
 		88251E051C71689800787D10 /* MXPTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 88251DFB1C71689800787D10 /* MXPTabBar.m */; };
-		8845249E1EF8C33A00AB4427 /* MXPAllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8845249D1EF8C33A00AB4427 /* MXPAllViewController.m */; };
-		884524A11EF8C35A00AB4427 /* MXPVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 884524A01EF8C35A00AB4427 /* MXPVideoViewController.m */; };
-		884524A41EF8C38300AB4427 /* MXPVoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 884524A31EF8C38300AB4427 /* MXPVoiceViewController.m */; };
-		884524A71EF8C39C00AB4427 /* MXPPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 884524A61EF8C39C00AB4427 /* MXPPictureViewController.m */; };
-		884524AA1EF8C3D400AB4427 /* MXPWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 884524A91EF8C3D400AB4427 /* MXPWordViewController.m */; };
+		88501C471F05F40300E76298 /* MXPTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88501C461F05F40300E76298 /* MXPTopicViewController.m */; };
 		8866B8911C756DDE0092D10F /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 8866B8901C756DDE0092D10F /* Foundation+Log.m */; };
 		886C98E71EEA2DF700C2C9FE /* MXPWhiteTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 886C98E61EEA2DF700C2C9FE /* MXPWhiteTextField.m */; };
 		886C98EA1EEC2B7600C2C9FE /* MXPPushGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 886C98E91EEC2B7600C2C9FE /* MXPPushGuideView.m */; };
@@ -94,16 +90,8 @@
 		88251DF81C71689800787D10 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		88251DFA1C71689800787D10 /* MXPTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPTabBar.h; sourceTree = "<group>"; };
 		88251DFB1C71689800787D10 /* MXPTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPTabBar.m; sourceTree = "<group>"; };
-		8845249C1EF8C33A00AB4427 /* MXPAllViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPAllViewController.h; sourceTree = "<group>"; };
-		8845249D1EF8C33A00AB4427 /* MXPAllViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPAllViewController.m; sourceTree = "<group>"; };
-		8845249F1EF8C35A00AB4427 /* MXPVideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPVideoViewController.h; sourceTree = "<group>"; };
-		884524A01EF8C35A00AB4427 /* MXPVideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPVideoViewController.m; sourceTree = "<group>"; };
-		884524A21EF8C38300AB4427 /* MXPVoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPVoiceViewController.h; sourceTree = "<group>"; };
-		884524A31EF8C38300AB4427 /* MXPVoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPVoiceViewController.m; sourceTree = "<group>"; };
-		884524A51EF8C39C00AB4427 /* MXPPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPPictureViewController.h; sourceTree = "<group>"; };
-		884524A61EF8C39C00AB4427 /* MXPPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPPictureViewController.m; sourceTree = "<group>"; };
-		884524A81EF8C3D400AB4427 /* MXPWordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPWordViewController.h; sourceTree = "<group>"; };
-		884524A91EF8C3D400AB4427 /* MXPWordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPWordViewController.m; sourceTree = "<group>"; };
+		88501C451F05F40300E76298 /* MXPTopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPTopicViewController.h; sourceTree = "<group>"; };
+		88501C461F05F40300E76298 /* MXPTopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPTopicViewController.m; sourceTree = "<group>"; };
 		8866B8901C756DDE0092D10F /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
 		886C98E51EEA2DF700C2C9FE /* MXPWhiteTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPWhiteTextField.h; sourceTree = "<group>"; };
 		886C98E61EEA2DF700C2C9FE /* MXPWhiteTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPWhiteTextField.m; sourceTree = "<group>"; };
@@ -228,16 +216,8 @@
 				88251DD61C71689800787D10 /* MXPEssenceViewController.m */,
 				88D205411EE6CB25002AA218 /* MXPRecommendTagsViewController.h */,
 				88D205421EE6CB25002AA218 /* MXPRecommendTagsViewController.m */,
-				8845249C1EF8C33A00AB4427 /* MXPAllViewController.h */,
-				8845249D1EF8C33A00AB4427 /* MXPAllViewController.m */,
-				8845249F1EF8C35A00AB4427 /* MXPVideoViewController.h */,
-				884524A01EF8C35A00AB4427 /* MXPVideoViewController.m */,
-				884524A21EF8C38300AB4427 /* MXPVoiceViewController.h */,
-				884524A31EF8C38300AB4427 /* MXPVoiceViewController.m */,
-				884524A51EF8C39C00AB4427 /* MXPPictureViewController.h */,
-				884524A61EF8C39C00AB4427 /* MXPPictureViewController.m */,
-				884524A81EF8C3D400AB4427 /* MXPWordViewController.h */,
-				884524A91EF8C3D400AB4427 /* MXPWordViewController.m */,
+				88501C451F05F40300E76298 /* MXPTopicViewController.h */,
+				88501C461F05F40300E76298 /* MXPTopicViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -707,24 +687,20 @@
 			files = (
 				8887A70D1F038824009E736C /* MXPTopic.m in Sources */,
 				8887A7101F0489B2009E736C /* MXPConst.m in Sources */,
-				8845249E1EF8C33A00AB4427 /* MXPAllViewController.m in Sources */,
 				88D2054F1EE81BAC002AA218 /* MXPLoginRegisterViewController.m in Sources */,
 				88F3CB191C7C845C0042CA14 /* MXPRecommendCategoryModel.m in Sources */,
 				88D205461EE6CF12002AA218 /* MXPRecommendTagsModel.m in Sources */,
 				8887A71E1F04DF4A009E736C /* NSDate+MXPExtension.m in Sources */,
 				88251E011C71689800787D10 /* UIBarButtonItem+MXPExtension.m in Sources */,
-				884524A41EF8C38300AB4427 /* MXPVoiceViewController.m in Sources */,
-				884524A11EF8C35A00AB4427 /* MXPVideoViewController.m in Sources */,
 				88251DFD1C71689800787D10 /* MXPFriendTrendsViewController.m in Sources */,
 				886C98E71EEA2DF700C2C9FE /* MXPWhiteTextField.m in Sources */,
 				88D205531EE8382F002AA218 /* MXPVerticalButton.m in Sources */,
-				884524A71EF8C39C00AB4427 /* MXPPictureViewController.m in Sources */,
 				88251DFE1C71689800787D10 /* MXPMeViewController.m in Sources */,
 				88F4CBED1C718FE4000A7176 /* MXPNavigationController.m in Sources */,
+				88501C471F05F40300E76298 /* MXPTopicViewController.m in Sources */,
 				88251E051C71689800787D10 /* MXPTabBar.m in Sources */,
 				88D2054A1EE6D333002AA218 /* MXPRecommendTagsCell.m in Sources */,
 				88F3CB1D1C7C87C20042CA14 /* MXPRecommendCategoryCell.m in Sources */,
-				884524AA1EF8C3D400AB4427 /* MXPWordViewController.m in Sources */,
 				88F78DAA1D1E750400E73E39 /* MXPUtility.m in Sources */,
 				88251DFC1C71689800787D10 /* MXPEssenceViewController.m in Sources */,
 				88251E021C71689800787D10 /* UIView+MXPExtension.m in Sources */,
