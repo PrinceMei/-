@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1E18B4C667EDFEDE0911C868 /* libPods-百思不得姐.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FB9FD5E1224C776C1A6E0EF /* libPods-百思不得姐.a */; };
+		8810B7F41F0BCB3B00A0E413 /* MXPShowPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8810B7F21F0BCB3B00A0E413 /* MXPShowPictureViewController.m */; };
+		8810B7F51F0BCB3B00A0E413 /* MXPShowPictureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8810B7F31F0BCB3B00A0E413 /* MXPShowPictureViewController.xib */; };
 		88251DFC1C71689800787D10 /* MXPEssenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88251DD61C71689800787D10 /* MXPEssenceViewController.m */; };
 		88251DFD1C71689800787D10 /* MXPFriendTrendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88251DDC1C71689800787D10 /* MXPFriendTrendsViewController.m */; };
 		88251DFE1C71689800787D10 /* MXPMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88251DE21C71689800787D10 /* MXPMeViewController.m */; };
@@ -18,6 +20,7 @@
 		88251E031C71689800787D10 /* MXPTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88251DF51C71689800787D10 /* MXPTabBarController.m */; };
 		88251E041C71689800787D10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88251DF61C71689800787D10 /* main.m */; };
 		88251E051C71689800787D10 /* MXPTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 88251DFB1C71689800787D10 /* MXPTabBar.m */; };
+		882D46931F0CBBCB001ED9CE /* MXPCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 882D46921F0CBBCB001ED9CE /* MXPCircularProgressView.m */; };
 		88501C471F05F40300E76298 /* MXPTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88501C461F05F40300E76298 /* MXPTopicViewController.m */; };
 		88501C4A1F06459600E76298 /* MXPTopicPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88501C491F06459600E76298 /* MXPTopicPictureView.m */; };
 		88501C4C1F06460D00E76298 /* MXPTopicPictureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88501C4B1F06460C00E76298 /* MXPTopicPictureView.xib */; };
@@ -75,6 +78,9 @@
 		2FA6068E34C48E8DEDBE5184 /* Pods-百思不得姐.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐.release.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐.release.xcconfig"; sourceTree = "<group>"; };
 		6FB9FD5E1224C776C1A6E0EF /* libPods-百思不得姐.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-百思不得姐.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		78CAC0F269884169D9D17AE1 /* Pods-百思不得姐.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-百思不得姐.debug.xcconfig"; path = "Pods/Target Support Files/Pods-百思不得姐/Pods-百思不得姐.debug.xcconfig"; sourceTree = "<group>"; };
+		8810B7F11F0BCB3B00A0E413 /* MXPShowPictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPShowPictureViewController.h; sourceTree = "<group>"; };
+		8810B7F21F0BCB3B00A0E413 /* MXPShowPictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPShowPictureViewController.m; sourceTree = "<group>"; };
+		8810B7F31F0BCB3B00A0E413 /* MXPShowPictureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXPShowPictureViewController.xib; sourceTree = "<group>"; };
 		88251DD51C71689800787D10 /* MXPEssenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPEssenceViewController.h; sourceTree = "<group>"; };
 		88251DD61C71689800787D10 /* MXPEssenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPEssenceViewController.m; sourceTree = "<group>"; };
 		88251DDB1C71689800787D10 /* MXPFriendTrendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPFriendTrendsViewController.h; sourceTree = "<group>"; };
@@ -95,6 +101,8 @@
 		88251DF81C71689800787D10 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		88251DFA1C71689800787D10 /* MXPTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPTabBar.h; sourceTree = "<group>"; };
 		88251DFB1C71689800787D10 /* MXPTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPTabBar.m; sourceTree = "<group>"; };
+		882D46911F0CBBCB001ED9CE /* MXPCircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPCircularProgressView.h; sourceTree = "<group>"; };
+		882D46921F0CBBCB001ED9CE /* MXPCircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPCircularProgressView.m; sourceTree = "<group>"; };
 		88501C451F05F40300E76298 /* MXPTopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPTopicViewController.h; sourceTree = "<group>"; };
 		88501C461F05F40300E76298 /* MXPTopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPTopicViewController.m; sourceTree = "<group>"; };
 		88501C481F06459600E76298 /* MXPTopicPictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPTopicPictureView.h; sourceTree = "<group>"; };
@@ -150,10 +158,10 @@
 		88FFE10F1C60A33200121F0E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88FFE1111C60A33200121F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88FFE1161C60A33200121F0E /* 百思不得姐Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思不得姐Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		88FFE11A1C60A33200121F0E /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _____Tests.m; sourceTree = "<group>"; };
+		88FFE11A1C60A33200121F0E /* _____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____Tests.m"; sourceTree = "<group>"; };
 		88FFE11C1C60A33200121F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88FFE1211C60A33200121F0E /* 百思不得姐UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "百思不得姐UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		88FFE1251C60A33200121F0E /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _____UITests.m; sourceTree = "<group>"; };
+		88FFE1251C60A33200121F0E /* _____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____UITests.m"; sourceTree = "<group>"; };
 		88FFE1271C60A33200121F0E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -222,6 +230,9 @@
 				88D205421EE6CB25002AA218 /* MXPRecommendTagsViewController.m */,
 				88501C451F05F40300E76298 /* MXPTopicViewController.h */,
 				88501C461F05F40300E76298 /* MXPTopicViewController.m */,
+				8810B7F11F0BCB3B00A0E413 /* MXPShowPictureViewController.h */,
+				8810B7F21F0BCB3B00A0E413 /* MXPShowPictureViewController.m */,
+				8810B7F31F0BCB3B00A0E413 /* MXPShowPictureViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -249,6 +260,8 @@
 				88501C481F06459600E76298 /* MXPTopicPictureView.h */,
 				88501C491F06459600E76298 /* MXPTopicPictureView.m */,
 				88501C4B1F06460C00E76298 /* MXPTopicPictureView.xib */,
+				882D46911F0CBBCB001ED9CE /* MXPCircularProgressView.h */,
+				882D46921F0CBBCB001ED9CE /* MXPCircularProgressView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -615,6 +628,7 @@
 				88D205501EE81BAC002AA218 /* MXPLoginRegisterViewController.xib in Resources */,
 				88FFE1101C60A33200121F0E /* LaunchScreen.storyboard in Resources */,
 				8887A7151F049E93009E736C /* MXPTopicCell.xib in Resources */,
+				8810B7F51F0BCB3B00A0E413 /* MXPShowPictureViewController.xib in Resources */,
 				88501C4C1F06460D00E76298 /* MXPTopicPictureView.xib in Resources */,
 				88D2054B1EE6D333002AA218 /* MXPRecommendTagsCell.xib in Resources */,
 				88FFE10D1C60A33200121F0E /* Assets.xcassets in Resources */,
@@ -711,6 +725,7 @@
 				88251DFD1C71689800787D10 /* MXPFriendTrendsViewController.m in Sources */,
 				886C98E71EEA2DF700C2C9FE /* MXPWhiteTextField.m in Sources */,
 				88D205531EE8382F002AA218 /* MXPVerticalButton.m in Sources */,
+				8810B7F41F0BCB3B00A0E413 /* MXPShowPictureViewController.m in Sources */,
 				88251DFE1C71689800787D10 /* MXPMeViewController.m in Sources */,
 				88F4CBED1C718FE4000A7176 /* MXPNavigationController.m in Sources */,
 				88501C471F05F40300E76298 /* MXPTopicViewController.m in Sources */,
@@ -725,6 +740,7 @@
 				88501C4A1F06459600E76298 /* MXPTopicPictureView.m in Sources */,
 				88251E031C71689800787D10 /* MXPTabBarController.m in Sources */,
 				8887A7141F049E93009E736C /* MXPTopicCell.m in Sources */,
+				882D46931F0CBBCB001ED9CE /* MXPCircularProgressView.m in Sources */,
 				88251DFF1C71689800787D10 /* MXPNewViewController.m in Sources */,
 				8866B8911C756DDE0092D10F /* Foundation+Log.m in Sources */,
 				88251E041C71689800787D10 /* main.m in Sources */,
@@ -866,6 +882,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				GCC_PREFIX_HEADER = "百思不得姐/Classes/Other-其他/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yonyou.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -880,6 +897,7 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				GCC_PREFIX_HEADER = "百思不得姐/Classes/Other-其他/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yonyou.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
