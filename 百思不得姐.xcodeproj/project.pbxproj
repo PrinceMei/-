@@ -21,6 +21,8 @@
 		88251E041C71689800787D10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88251DF61C71689800787D10 /* main.m */; };
 		88251E051C71689800787D10 /* MXPTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 88251DFB1C71689800787D10 /* MXPTabBar.m */; };
 		882D46931F0CBBCB001ED9CE /* MXPCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 882D46921F0CBBCB001ED9CE /* MXPCircularProgressView.m */; };
+		882D46A01F0E69C6001ED9CE /* MXPPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 882D469E1F0E69C6001ED9CE /* MXPPublishViewController.m */; };
+		882D46A11F0E69C6001ED9CE /* MXPPublishViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 882D469F1F0E69C6001ED9CE /* MXPPublishViewController.xib */; };
 		88501C471F05F40300E76298 /* MXPTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88501C461F05F40300E76298 /* MXPTopicViewController.m */; };
 		88501C4A1F06459600E76298 /* MXPTopicPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88501C491F06459600E76298 /* MXPTopicPictureView.m */; };
 		88501C4C1F06460D00E76298 /* MXPTopicPictureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88501C4B1F06460C00E76298 /* MXPTopicPictureView.xib */; };
@@ -103,6 +105,9 @@
 		88251DFB1C71689800787D10 /* MXPTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPTabBar.m; sourceTree = "<group>"; };
 		882D46911F0CBBCB001ED9CE /* MXPCircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPCircularProgressView.h; sourceTree = "<group>"; };
 		882D46921F0CBBCB001ED9CE /* MXPCircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPCircularProgressView.m; sourceTree = "<group>"; };
+		882D469D1F0E69C6001ED9CE /* MXPPublishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPPublishViewController.h; sourceTree = "<group>"; };
+		882D469E1F0E69C6001ED9CE /* MXPPublishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPPublishViewController.m; sourceTree = "<group>"; };
+		882D469F1F0E69C6001ED9CE /* MXPPublishViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXPPublishViewController.xib; sourceTree = "<group>"; };
 		88501C451F05F40300E76298 /* MXPTopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPTopicViewController.h; sourceTree = "<group>"; };
 		88501C461F05F40300E76298 /* MXPTopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPTopicViewController.m; sourceTree = "<group>"; };
 		88501C481F06459600E76298 /* MXPTopicPictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPTopicPictureView.h; sourceTree = "<group>"; };
@@ -398,6 +403,9 @@
 				88251DF61C71689800787D10 /* main.m */,
 				88251DEC1C71689800787D10 /* AppDelegate.h */,
 				88251DED1C71689800787D10 /* AppDelegate.m */,
+				882D469D1F0E69C6001ED9CE /* MXPPublishViewController.h */,
+				882D469E1F0E69C6001ED9CE /* MXPPublishViewController.m */,
+				882D469F1F0E69C6001ED9CE /* MXPPublishViewController.xib */,
 				88251DF81C71689800787D10 /* PrefixHeader.pch */,
 				8887A70E1F0489B2009E736C /* MXPConst.h */,
 				8887A70F1F0489B2009E736C /* MXPConst.m */,
@@ -632,6 +640,7 @@
 				88501C4C1F06460D00E76298 /* MXPTopicPictureView.xib in Resources */,
 				88D2054B1EE6D333002AA218 /* MXPRecommendTagsCell.xib in Resources */,
 				88FFE10D1C60A33200121F0E /* Assets.xcassets in Resources */,
+				882D46A11F0E69C6001ED9CE /* MXPPublishViewController.xib in Resources */,
 				88F4CBF41C72048C000A7176 /* MXPRecommendTrendsViewController.xib in Resources */,
 				886C98EC1EEC2BEA00C2C9FE /* MXPPushGuideView.xib in Resources */,
 				88F3CB1E1C7C87C20042CA14 /* MXPRecommendCategoryCell.xib in Resources */,
@@ -747,6 +756,7 @@
 				88F06A6A1D3CB402000BE00A /* MXPRecommendUserModel.m in Sources */,
 				88251E001C71689800787D10 /* AppDelegate.m in Sources */,
 				889070C01D051E6700D505AB /* MXPRecommendUserCell.m in Sources */,
+				882D46A01F0E69C6001ED9CE /* MXPPublishViewController.m in Sources */,
 				886C98EA1EEC2B7600C2C9FE /* MXPPushGuideView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
