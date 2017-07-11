@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "&#x767e;&#x601d;&#x4e0d;&#x5f97;&#x59d0;/Classes/Other-&#x5176;&#x4ed6;/MXPPublishViewController.m"
-            timestampString = "521104415.917089"
+            timestampString = "521432076.573738"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "124"
-            endingLineNumber = "124"
+            startingLineNumber = "169"
+            endingLineNumber = "169"
             landmarkName = "-touchesBegan:withEvent:"
             landmarkType = "7">
          </BreakpointContent>
