@@ -37,6 +37,8 @@
 		8887A71E1F04DF4A009E736C /* NSDate+MXPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8887A71D1F04DF4A009E736C /* NSDate+MXPExtension.m */; };
 		889070C01D051E6700D505AB /* MXPRecommendUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 889070BE1D051E6700D505AB /* MXPRecommendUserCell.m */; };
 		889070C11D051E6700D505AB /* MXPRecommendUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 889070BF1D051E6700D505AB /* MXPRecommendUserCell.xib */; };
+		88CF2E481F14B0E500324406 /* MXPTopicVoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CF2E471F14B0E500324406 /* MXPTopicVoiceView.m */; };
+		88CF2E4A1F14B13000324406 /* MXPTopicVoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88CF2E491F14B13000324406 /* MXPTopicVoiceView.xib */; };
 		88D205431EE6CB25002AA218 /* MXPRecommendTagsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D205421EE6CB25002AA218 /* MXPRecommendTagsViewController.m */; };
 		88D205461EE6CF12002AA218 /* MXPRecommendTagsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D205451EE6CF12002AA218 /* MXPRecommendTagsModel.m */; };
 		88D2054A1EE6D333002AA218 /* MXPRecommendTagsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D205481EE6D333002AA218 /* MXPRecommendTagsCell.m */; };
@@ -131,6 +133,9 @@
 		889070BD1D051E6700D505AB /* MXPRecommendUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPRecommendUserCell.h; sourceTree = "<group>"; };
 		889070BE1D051E6700D505AB /* MXPRecommendUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPRecommendUserCell.m; sourceTree = "<group>"; };
 		889070BF1D051E6700D505AB /* MXPRecommendUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXPRecommendUserCell.xib; sourceTree = "<group>"; };
+		88CF2E461F14B0E500324406 /* MXPTopicVoiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPTopicVoiceView.h; sourceTree = "<group>"; };
+		88CF2E471F14B0E500324406 /* MXPTopicVoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPTopicVoiceView.m; sourceTree = "<group>"; };
+		88CF2E491F14B13000324406 /* MXPTopicVoiceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXPTopicVoiceView.xib; sourceTree = "<group>"; };
 		88D205411EE6CB25002AA218 /* MXPRecommendTagsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPRecommendTagsViewController.h; sourceTree = "<group>"; };
 		88D205421EE6CB25002AA218 /* MXPRecommendTagsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPRecommendTagsViewController.m; sourceTree = "<group>"; };
 		88D205441EE6CF12002AA218 /* MXPRecommendTagsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPRecommendTagsModel.h; sourceTree = "<group>"; };
@@ -265,6 +270,9 @@
 				88501C481F06459600E76298 /* MXPTopicPictureView.h */,
 				88501C491F06459600E76298 /* MXPTopicPictureView.m */,
 				88501C4B1F06460C00E76298 /* MXPTopicPictureView.xib */,
+				88CF2E461F14B0E500324406 /* MXPTopicVoiceView.h */,
+				88CF2E471F14B0E500324406 /* MXPTopicVoiceView.m */,
+				88CF2E491F14B13000324406 /* MXPTopicVoiceView.xib */,
 				882D46911F0CBBCB001ED9CE /* MXPCircularProgressView.h */,
 				882D46921F0CBBCB001ED9CE /* MXPCircularProgressView.m */,
 			);
@@ -632,6 +640,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88CF2E4A1F14B13000324406 /* MXPTopicVoiceView.xib in Resources */,
 				88F4CBEF1C71C7AD000A7176 /* MXPFriendTrendsViewController.xib in Resources */,
 				88D205501EE81BAC002AA218 /* MXPLoginRegisterViewController.xib in Resources */,
 				88FFE1101C60A33200121F0E /* LaunchScreen.storyboard in Resources */,
@@ -742,6 +751,7 @@
 				88D2054A1EE6D333002AA218 /* MXPRecommendTagsCell.m in Sources */,
 				88F3CB1D1C7C87C20042CA14 /* MXPRecommendCategoryCell.m in Sources */,
 				88F78DAA1D1E750400E73E39 /* MXPUtility.m in Sources */,
+				88CF2E481F14B0E500324406 /* MXPTopicVoiceView.m in Sources */,
 				88251DFC1C71689800787D10 /* MXPEssenceViewController.m in Sources */,
 				88251E021C71689800787D10 /* UIView+MXPExtension.m in Sources */,
 				88D205431EE6CB25002AA218 /* MXPRecommendTagsViewController.m in Sources */,
