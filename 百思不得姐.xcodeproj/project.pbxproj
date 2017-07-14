@@ -43,6 +43,7 @@
 		88CF2E501F15BC6F00324406 /* MXPComment.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CF2E4F1F15BC6F00324406 /* MXPComment.m */; };
 		88CF2E541F15E74A00324406 /* MXPCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CF2E521F15E74A00324406 /* MXPCommentViewController.m */; };
 		88CF2E551F15E74A00324406 /* MXPCommentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88CF2E531F15E74A00324406 /* MXPCommentViewController.xib */; };
+		88CF2E581F185B9D00324406 /* MXPCommentHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CF2E571F185B9D00324406 /* MXPCommentHeaderView.m */; };
 		88D205431EE6CB25002AA218 /* MXPRecommendTagsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D205421EE6CB25002AA218 /* MXPRecommendTagsViewController.m */; };
 		88D205461EE6CF12002AA218 /* MXPRecommendTagsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D205451EE6CF12002AA218 /* MXPRecommendTagsModel.m */; };
 		88D2054A1EE6D333002AA218 /* MXPRecommendTagsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D205481EE6D333002AA218 /* MXPRecommendTagsCell.m */; };
@@ -147,6 +148,8 @@
 		88CF2E511F15E74A00324406 /* MXPCommentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPCommentViewController.h; sourceTree = "<group>"; };
 		88CF2E521F15E74A00324406 /* MXPCommentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPCommentViewController.m; sourceTree = "<group>"; };
 		88CF2E531F15E74A00324406 /* MXPCommentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXPCommentViewController.xib; sourceTree = "<group>"; };
+		88CF2E561F185B9D00324406 /* MXPCommentHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPCommentHeaderView.h; sourceTree = "<group>"; };
+		88CF2E571F185B9D00324406 /* MXPCommentHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPCommentHeaderView.m; sourceTree = "<group>"; };
 		88D205411EE6CB25002AA218 /* MXPRecommendTagsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPRecommendTagsViewController.h; sourceTree = "<group>"; };
 		88D205421EE6CB25002AA218 /* MXPRecommendTagsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPRecommendTagsViewController.m; sourceTree = "<group>"; };
 		88D205441EE6CF12002AA218 /* MXPRecommendTagsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPRecommendTagsModel.h; sourceTree = "<group>"; };
@@ -293,6 +296,8 @@
 				88CF2E491F14B13000324406 /* MXPTopicVoiceView.xib */,
 				882D46911F0CBBCB001ED9CE /* MXPCircularProgressView.h */,
 				882D46921F0CBBCB001ED9CE /* MXPCircularProgressView.m */,
+				88CF2E561F185B9D00324406 /* MXPCommentHeaderView.h */,
+				88CF2E571F185B9D00324406 /* MXPCommentHeaderView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -756,6 +761,7 @@
 				8887A7101F0489B2009E736C /* MXPConst.m in Sources */,
 				88D2054F1EE81BAC002AA218 /* MXPLoginRegisterViewController.m in Sources */,
 				88CF2E501F15BC6F00324406 /* MXPComment.m in Sources */,
+				88CF2E581F185B9D00324406 /* MXPCommentHeaderView.m in Sources */,
 				88F3CB191C7C845C0042CA14 /* MXPRecommendCategoryModel.m in Sources */,
 				88D205461EE6CF12002AA218 /* MXPRecommendTagsModel.m in Sources */,
 				8887A71E1F04DF4A009E736C /* NSDate+MXPExtension.m in Sources */,
