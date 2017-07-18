@@ -44,6 +44,8 @@
 		88CF2E541F15E74A00324406 /* MXPCommentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CF2E521F15E74A00324406 /* MXPCommentViewController.m */; };
 		88CF2E551F15E74A00324406 /* MXPCommentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88CF2E531F15E74A00324406 /* MXPCommentViewController.xib */; };
 		88CF2E581F185B9D00324406 /* MXPCommentHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CF2E571F185B9D00324406 /* MXPCommentHeaderView.m */; };
+		88CF2E5C1F18E9B300324406 /* MXPCommentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CF2E5A1F18E9B300324406 /* MXPCommentCell.m */; };
+		88CF2E5D1F18E9B300324406 /* MXPCommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88CF2E5B1F18E9B300324406 /* MXPCommentCell.xib */; };
 		88D205431EE6CB25002AA218 /* MXPRecommendTagsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D205421EE6CB25002AA218 /* MXPRecommendTagsViewController.m */; };
 		88D205461EE6CF12002AA218 /* MXPRecommendTagsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D205451EE6CF12002AA218 /* MXPRecommendTagsModel.m */; };
 		88D2054A1EE6D333002AA218 /* MXPRecommendTagsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 88D205481EE6D333002AA218 /* MXPRecommendTagsCell.m */; };
@@ -150,6 +152,9 @@
 		88CF2E531F15E74A00324406 /* MXPCommentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXPCommentViewController.xib; sourceTree = "<group>"; };
 		88CF2E561F185B9D00324406 /* MXPCommentHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPCommentHeaderView.h; sourceTree = "<group>"; };
 		88CF2E571F185B9D00324406 /* MXPCommentHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPCommentHeaderView.m; sourceTree = "<group>"; };
+		88CF2E591F18E9B300324406 /* MXPCommentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPCommentCell.h; sourceTree = "<group>"; };
+		88CF2E5A1F18E9B300324406 /* MXPCommentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPCommentCell.m; sourceTree = "<group>"; };
+		88CF2E5B1F18E9B300324406 /* MXPCommentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXPCommentCell.xib; sourceTree = "<group>"; };
 		88D205411EE6CB25002AA218 /* MXPRecommendTagsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPRecommendTagsViewController.h; sourceTree = "<group>"; };
 		88D205421EE6CB25002AA218 /* MXPRecommendTagsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPRecommendTagsViewController.m; sourceTree = "<group>"; };
 		88D205441EE6CF12002AA218 /* MXPRecommendTagsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPRecommendTagsModel.h; sourceTree = "<group>"; };
@@ -298,6 +303,9 @@
 				882D46921F0CBBCB001ED9CE /* MXPCircularProgressView.m */,
 				88CF2E561F185B9D00324406 /* MXPCommentHeaderView.h */,
 				88CF2E571F185B9D00324406 /* MXPCommentHeaderView.m */,
+				88CF2E591F18E9B300324406 /* MXPCommentCell.h */,
+				88CF2E5A1F18E9B300324406 /* MXPCommentCell.m */,
+				88CF2E5B1F18E9B300324406 /* MXPCommentCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -674,6 +682,7 @@
 				88D2054B1EE6D333002AA218 /* MXPRecommendTagsCell.xib in Resources */,
 				88FFE10D1C60A33200121F0E /* Assets.xcassets in Resources */,
 				882D46A11F0E69C6001ED9CE /* MXPPublishView.xib in Resources */,
+				88CF2E5D1F18E9B300324406 /* MXPCommentCell.xib in Resources */,
 				88F4CBF41C72048C000A7176 /* MXPRecommendTrendsViewController.xib in Resources */,
 				886C98EC1EEC2BEA00C2C9FE /* MXPPushGuideView.xib in Resources */,
 				88F3CB1E1C7C87C20042CA14 /* MXPRecommendCategoryCell.xib in Resources */,
@@ -776,6 +785,7 @@
 				88251E051C71689800787D10 /* MXPTabBar.m in Sources */,
 				88D2054A1EE6D333002AA218 /* MXPRecommendTagsCell.m in Sources */,
 				88CF2E4D1F15BBAB00324406 /* MXPUser.m in Sources */,
+				88CF2E5C1F18E9B300324406 /* MXPCommentCell.m in Sources */,
 				88CF2E541F15E74A00324406 /* MXPCommentViewController.m in Sources */,
 				88F3CB1D1C7C87C20042CA14 /* MXPRecommendCategoryCell.m in Sources */,
 				88F78DAA1D1E750400E73E39 /* MXPUtility.m in Sources */,
@@ -934,6 +944,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yonyou.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -949,6 +960,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yonyou.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
