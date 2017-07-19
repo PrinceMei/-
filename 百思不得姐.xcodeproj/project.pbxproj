@@ -38,6 +38,7 @@
 		889070C01D051E6700D505AB /* MXPRecommendUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 889070BE1D051E6700D505AB /* MXPRecommendUserCell.m */; };
 		889070C11D051E6700D505AB /* MXPRecommendUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 889070BF1D051E6700D505AB /* MXPRecommendUserCell.xib */; };
 		88A51E6D1F1DE0AA00A6A3B1 /* MXPTopWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A51E6C1F1DE0AA00A6A3B1 /* MXPTopWindow.m */; };
+		88A51E731F1F41D500A6A3B1 /* UIImage+MXPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A51E721F1F41D500A6A3B1 /* UIImage+MXPExtension.m */; };
 		88CF2E481F14B0E500324406 /* MXPTopicVoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CF2E471F14B0E500324406 /* MXPTopicVoiceView.m */; };
 		88CF2E4A1F14B13000324406 /* MXPTopicVoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88CF2E491F14B13000324406 /* MXPTopicVoiceView.xib */; };
 		88CF2E4D1F15BBAB00324406 /* MXPUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 88CF2E4C1F15BBAB00324406 /* MXPUser.m */; };
@@ -143,6 +144,8 @@
 		889070BF1D051E6700D505AB /* MXPRecommendUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXPRecommendUserCell.xib; sourceTree = "<group>"; };
 		88A51E6B1F1DE0AA00A6A3B1 /* MXPTopWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPTopWindow.h; sourceTree = "<group>"; };
 		88A51E6C1F1DE0AA00A6A3B1 /* MXPTopWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPTopWindow.m; sourceTree = "<group>"; };
+		88A51E711F1F41D500A6A3B1 /* UIImage+MXPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MXPExtension.h"; sourceTree = "<group>"; };
+		88A51E721F1F41D500A6A3B1 /* UIImage+MXPExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MXPExtension.m"; sourceTree = "<group>"; };
 		88CF2E461F14B0E500324406 /* MXPTopicVoiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPTopicVoiceView.h; sourceTree = "<group>"; };
 		88CF2E471F14B0E500324406 /* MXPTopicVoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPTopicVoiceView.m; sourceTree = "<group>"; };
 		88CF2E491F14B13000324406 /* MXPTopicVoiceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXPTopicVoiceView.xib; sourceTree = "<group>"; };
@@ -465,6 +468,8 @@
 				88251DF21C71689800787D10 /* UIView+MXPExtension.m */,
 				8887A71C1F04DF49009E736C /* NSDate+MXPExtension.h */,
 				8887A71D1F04DF4A009E736C /* NSDate+MXPExtension.m */,
+				88A51E711F1F41D500A6A3B1 /* UIImage+MXPExtension.h */,
+				88A51E721F1F41D500A6A3B1 /* UIImage+MXPExtension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -786,6 +791,7 @@
 				88D205531EE8382F002AA218 /* MXPVerticalButton.m in Sources */,
 				8810B7F41F0BCB3B00A0E413 /* MXPShowPictureViewController.m in Sources */,
 				88251DFE1C71689800787D10 /* MXPMeViewController.m in Sources */,
+				88A51E731F1F41D500A6A3B1 /* UIImage+MXPExtension.m in Sources */,
 				88F4CBED1C718FE4000A7176 /* MXPNavigationController.m in Sources */,
 				88501C471F05F40300E76298 /* MXPTopicViewController.m in Sources */,
 				88251E051C71689800787D10 /* MXPTabBar.m in Sources */,
