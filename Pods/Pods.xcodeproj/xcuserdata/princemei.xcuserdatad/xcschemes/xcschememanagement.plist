@@ -29,6 +29,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>NJKWebViewProgress.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-百思不得姐.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -57,17 +62,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>0574009BB9AF68A609C3E1F60CF3F948</key>
+		<key>69BD8A7DA71DCFF147011DAE6ECAE849</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4D86627E5B7ED5E95FF78B463582D832</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>804ABCFC2652ED799F6BF44AD5B03CC0</key>
+		<key>8C0B2AAB46CC118D1F6A1E598B2C307A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -87,12 +87,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C169D43FEEAC51923C962F10767D9AB7</key>
+		<key>C791F0A928C1A8FE97074DFC9ACF4E75</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C791F0A928C1A8FE97074DFC9ACF4E75</key>
+		<key>CCB7CB485E21C0801790635C83376BA2</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D57BB9A1A5508E7D35F9EFA6EC8310B8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EC2DDFB5A8902354793F6D4129FB8872</key>
 		<dict>
 			<key>primary</key>
 			<true/>
