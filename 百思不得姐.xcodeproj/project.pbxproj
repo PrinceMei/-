@@ -27,6 +27,10 @@
 		88501C4A1F06459600E76298 /* MXPTopicPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88501C491F06459600E76298 /* MXPTopicPictureView.m */; };
 		88501C4C1F06460D00E76298 /* MXPTopicPictureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88501C4B1F06460C00E76298 /* MXPTopicPictureView.xib */; };
 		8866B8911C756DDE0092D10F /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 8866B8901C756DDE0092D10F /* Foundation+Log.m */; };
+		886731851F20562500CFCA26 /* MXPMeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 886731841F20562500CFCA26 /* MXPMeCell.m */; };
+		886731881F20763E00CFCA26 /* MXPMeFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 886731871F20763E00CFCA26 /* MXPMeFooterView.m */; };
+		8867318B1F2076D800CFCA26 /* MXPSquare.m in Sources */ = {isa = PBXBuildFile; fileRef = 8867318A1F2076D800CFCA26 /* MXPSquare.m */; };
+		8867318E1F20770E00CFCA26 /* MXPSqaureButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 8867318D1F20770E00CFCA26 /* MXPSqaureButton.m */; };
 		886C98E71EEA2DF700C2C9FE /* MXPWhiteTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 886C98E61EEA2DF700C2C9FE /* MXPWhiteTextField.m */; };
 		886C98EA1EEC2B7600C2C9FE /* MXPPushGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 886C98E91EEC2B7600C2C9FE /* MXPPushGuideView.m */; };
 		886C98EC1EEC2BEA00C2C9FE /* MXPPushGuideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 886C98EB1EEC2BEA00C2C9FE /* MXPPushGuideView.xib */; };
@@ -126,6 +130,14 @@
 		88501C491F06459600E76298 /* MXPTopicPictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPTopicPictureView.m; sourceTree = "<group>"; };
 		88501C4B1F06460C00E76298 /* MXPTopicPictureView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXPTopicPictureView.xib; sourceTree = "<group>"; };
 		8866B8901C756DDE0092D10F /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
+		886731831F20562500CFCA26 /* MXPMeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPMeCell.h; sourceTree = "<group>"; };
+		886731841F20562500CFCA26 /* MXPMeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPMeCell.m; sourceTree = "<group>"; };
+		886731861F20763E00CFCA26 /* MXPMeFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPMeFooterView.h; sourceTree = "<group>"; };
+		886731871F20763E00CFCA26 /* MXPMeFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPMeFooterView.m; sourceTree = "<group>"; };
+		886731891F2076D800CFCA26 /* MXPSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPSquare.h; sourceTree = "<group>"; };
+		8867318A1F2076D800CFCA26 /* MXPSquare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPSquare.m; sourceTree = "<group>"; };
+		8867318C1F20770E00CFCA26 /* MXPSqaureButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPSqaureButton.h; sourceTree = "<group>"; };
+		8867318D1F20770E00CFCA26 /* MXPSqaureButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPSqaureButton.m; sourceTree = "<group>"; };
 		886C98E51EEA2DF700C2C9FE /* MXPWhiteTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPWhiteTextField.h; sourceTree = "<group>"; };
 		886C98E61EEA2DF700C2C9FE /* MXPWhiteTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPWhiteTextField.m; sourceTree = "<group>"; };
 		886C98E81EEC2B7600C2C9FE /* MXPPushGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPPushGuideView.h; sourceTree = "<group>"; };
@@ -397,6 +409,8 @@
 		88251DE31C71689800787D10 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				886731891F2076D800CFCA26 /* MXPSquare.h */,
+				8867318A1F2076D800CFCA26 /* MXPSquare.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -404,6 +418,12 @@
 		88251DE41C71689800787D10 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				886731831F20562500CFCA26 /* MXPMeCell.h */,
+				886731841F20562500CFCA26 /* MXPMeCell.m */,
+				886731861F20763E00CFCA26 /* MXPMeFooterView.h */,
+				886731871F20763E00CFCA26 /* MXPMeFooterView.m */,
+				8867318C1F20770E00CFCA26 /* MXPSqaureButton.h */,
+				8867318D1F20770E00CFCA26 /* MXPSqaureButton.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -798,8 +818,10 @@
 				88251DFE1C71689800787D10 /* MXPMeViewController.m in Sources */,
 				88A51E731F1F41D500A6A3B1 /* UIImage+MXPExtension.m in Sources */,
 				88F4CBED1C718FE4000A7176 /* MXPNavigationController.m in Sources */,
+				886731851F20562500CFCA26 /* MXPMeCell.m in Sources */,
 				88501C471F05F40300E76298 /* MXPTopicViewController.m in Sources */,
 				88251E051C71689800787D10 /* MXPTabBar.m in Sources */,
+				8867318E1F20770E00CFCA26 /* MXPSqaureButton.m in Sources */,
 				88D2054A1EE6D333002AA218 /* MXPRecommendTagsCell.m in Sources */,
 				88CF2E4D1F15BBAB00324406 /* MXPUser.m in Sources */,
 				88CF2E5C1F18E9B300324406 /* MXPCommentCell.m in Sources */,
@@ -814,6 +836,7 @@
 				88F4CBF31C72048C000A7176 /* MXPRecommendTrendsViewController.m in Sources */,
 				88501C4A1F06459600E76298 /* MXPTopicPictureView.m in Sources */,
 				88251E031C71689800787D10 /* MXPTabBarController.m in Sources */,
+				886731881F20763E00CFCA26 /* MXPMeFooterView.m in Sources */,
 				8887A7141F049E93009E736C /* MXPTopicCell.m in Sources */,
 				882D46931F0CBBCB001ED9CE /* MXPCircularProgressView.m in Sources */,
 				88251DFF1C71689800787D10 /* MXPNewViewController.m in Sources */,
@@ -823,6 +846,7 @@
 				88251E001C71689800787D10 /* AppDelegate.m in Sources */,
 				889070C01D051E6700D505AB /* MXPRecommendUserCell.m in Sources */,
 				882D46A01F0E69C6001ED9CE /* MXPPublishView.m in Sources */,
+				8867318B1F2076D800CFCA26 /* MXPSquare.m in Sources */,
 				886C98EA1EEC2B7600C2C9FE /* MXPPushGuideView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
