@@ -24,6 +24,8 @@
 		88501C471F05F40300E76298 /* MXPTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88501C461F05F40300E76298 /* MXPTopicViewController.m */; };
 		88501C4A1F06459600E76298 /* MXPTopicPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88501C491F06459600E76298 /* MXPTopicPictureView.m */; };
 		88501C4C1F06460D00E76298 /* MXPTopicPictureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88501C4B1F06460C00E76298 /* MXPTopicPictureView.xib */; };
+		88558F971F272C2000005C65 /* MXPAddTagToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 88558F961F272C2000005C65 /* MXPAddTagToolbar.m */; };
+		88558F991F272C3300005C65 /* MXPAddTagToolbar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88558F981F272C3300005C65 /* MXPAddTagToolbar.xib */; };
 		8866B8911C756DDE0092D10F /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 8866B8901C756DDE0092D10F /* Foundation+Log.m */; };
 		886731851F20562500CFCA26 /* MXPMeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 886731841F20562500CFCA26 /* MXPMeCell.m */; };
 		886731881F20763E00CFCA26 /* MXPMeFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 886731871F20763E00CFCA26 /* MXPMeFooterView.m */; };
@@ -132,6 +134,9 @@
 		88501C481F06459600E76298 /* MXPTopicPictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPTopicPictureView.h; sourceTree = "<group>"; };
 		88501C491F06459600E76298 /* MXPTopicPictureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPTopicPictureView.m; sourceTree = "<group>"; };
 		88501C4B1F06460C00E76298 /* MXPTopicPictureView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXPTopicPictureView.xib; sourceTree = "<group>"; };
+		88558F951F272C2000005C65 /* MXPAddTagToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPAddTagToolbar.h; sourceTree = "<group>"; };
+		88558F961F272C2000005C65 /* MXPAddTagToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPAddTagToolbar.m; sourceTree = "<group>"; };
+		88558F981F272C3300005C65 /* MXPAddTagToolbar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXPAddTagToolbar.xib; sourceTree = "<group>"; };
 		8866B8901C756DDE0092D10F /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
 		886731831F20562500CFCA26 /* MXPMeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPMeCell.h; sourceTree = "<group>"; };
 		886731841F20562500CFCA26 /* MXPMeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPMeCell.m; sourceTree = "<group>"; };
@@ -585,6 +590,9 @@
 				8867319C1F20D05800CFCA26 /* MXPPublishView.xib */,
 				886731A71F20D88600CFCA26 /* MXPPlaceholderTextView.h */,
 				886731A81F20D88600CFCA26 /* MXPPlaceholderTextView.m */,
+				88558F951F272C2000005C65 /* MXPAddTagToolbar.h */,
+				88558F961F272C2000005C65 /* MXPAddTagToolbar.m */,
+				88558F981F272C3300005C65 /* MXPAddTagToolbar.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -769,6 +777,7 @@
 				88F4CBEF1C71C7AD000A7176 /* MXPFriendTrendsViewController.xib in Resources */,
 				88D205501EE81BAC002AA218 /* MXPLoginRegisterViewController.xib in Resources */,
 				88FFE1101C60A33200121F0E /* LaunchScreen.storyboard in Resources */,
+				88558F991F272C3300005C65 /* MXPAddTagToolbar.xib in Resources */,
 				8887A7151F049E93009E736C /* MXPTopicCell.xib in Resources */,
 				8810B7F51F0BCB3B00A0E413 /* MXPShowPictureViewController.xib in Resources */,
 				88501C4C1F06460D00E76298 /* MXPTopicPictureView.xib in Resources */,
@@ -883,6 +892,7 @@
 				88251E051C71689800787D10 /* MXPTabBar.m in Sources */,
 				8867318E1F20770E00CFCA26 /* MXPSqaureButton.m in Sources */,
 				88D2054A1EE6D333002AA218 /* MXPRecommendTagsCell.m in Sources */,
+				88558F971F272C2000005C65 /* MXPAddTagToolbar.m in Sources */,
 				88CF2E4D1F15BBAB00324406 /* MXPUser.m in Sources */,
 				88CF2E5C1F18E9B300324406 /* MXPCommentCell.m in Sources */,
 				886731A21F20D2B200CFCA26 /* MXPPublishViewController.m in Sources */,
