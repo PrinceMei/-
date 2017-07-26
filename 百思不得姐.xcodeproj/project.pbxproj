@@ -26,6 +26,7 @@
 		88501C4C1F06460D00E76298 /* MXPTopicPictureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88501C4B1F06460C00E76298 /* MXPTopicPictureView.xib */; };
 		88558F971F272C2000005C65 /* MXPAddTagToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 88558F961F272C2000005C65 /* MXPAddTagToolbar.m */; };
 		88558F991F272C3300005C65 /* MXPAddTagToolbar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88558F981F272C3300005C65 /* MXPAddTagToolbar.xib */; };
+		88558F9C1F2825A300005C65 /* MXPAddTagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88558F9B1F2825A300005C65 /* MXPAddTagViewController.m */; };
 		8866B8911C756DDE0092D10F /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 8866B8901C756DDE0092D10F /* Foundation+Log.m */; };
 		886731851F20562500CFCA26 /* MXPMeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 886731841F20562500CFCA26 /* MXPMeCell.m */; };
 		886731881F20763E00CFCA26 /* MXPMeFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 886731871F20763E00CFCA26 /* MXPMeFooterView.m */; };
@@ -137,6 +138,8 @@
 		88558F951F272C2000005C65 /* MXPAddTagToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPAddTagToolbar.h; sourceTree = "<group>"; };
 		88558F961F272C2000005C65 /* MXPAddTagToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPAddTagToolbar.m; sourceTree = "<group>"; };
 		88558F981F272C3300005C65 /* MXPAddTagToolbar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXPAddTagToolbar.xib; sourceTree = "<group>"; };
+		88558F9A1F2825A300005C65 /* MXPAddTagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPAddTagViewController.h; sourceTree = "<group>"; };
+		88558F9B1F2825A300005C65 /* MXPAddTagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPAddTagViewController.m; sourceTree = "<group>"; };
 		8866B8901C756DDE0092D10F /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
 		886731831F20562500CFCA26 /* MXPMeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPMeCell.h; sourceTree = "<group>"; };
 		886731841F20562500CFCA26 /* MXPMeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPMeCell.m; sourceTree = "<group>"; };
@@ -571,6 +574,8 @@
 				886731A11F20D2B200CFCA26 /* MXPPublishViewController.xib */,
 				886731A41F20D84E00CFCA26 /* MXPPostWordViewController.h */,
 				886731A51F20D84E00CFCA26 /* MXPPostWordViewController.m */,
+				88558F9A1F2825A300005C65 /* MXPAddTagViewController.h */,
+				88558F9B1F2825A300005C65 /* MXPAddTagViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -918,6 +923,7 @@
 				88251E041C71689800787D10 /* main.m in Sources */,
 				886731A61F20D84E00CFCA26 /* MXPPostWordViewController.m in Sources */,
 				88F06A6A1D3CB402000BE00A /* MXPRecommendUserModel.m in Sources */,
+				88558F9C1F2825A300005C65 /* MXPAddTagViewController.m in Sources */,
 				88251E001C71689800787D10 /* AppDelegate.m in Sources */,
 				889070C01D051E6700D505AB /* MXPRecommendUserCell.m in Sources */,
 				8867318B1F2076D800CFCA26 /* MXPSquare.m in Sources */,
