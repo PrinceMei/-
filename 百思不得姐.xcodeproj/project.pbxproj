@@ -27,6 +27,7 @@
 		88558F971F272C2000005C65 /* MXPAddTagToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 88558F961F272C2000005C65 /* MXPAddTagToolbar.m */; };
 		88558F991F272C3300005C65 /* MXPAddTagToolbar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88558F981F272C3300005C65 /* MXPAddTagToolbar.xib */; };
 		88558F9C1F2825A300005C65 /* MXPAddTagViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88558F9B1F2825A300005C65 /* MXPAddTagViewController.m */; };
+		88558F9F1F283EDA00005C65 /* MXPTagButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 88558F9E1F283EDA00005C65 /* MXPTagButton.m */; };
 		8866B8911C756DDE0092D10F /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 8866B8901C756DDE0092D10F /* Foundation+Log.m */; };
 		886731851F20562500CFCA26 /* MXPMeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 886731841F20562500CFCA26 /* MXPMeCell.m */; };
 		886731881F20763E00CFCA26 /* MXPMeFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 886731871F20763E00CFCA26 /* MXPMeFooterView.m */; };
@@ -140,6 +141,8 @@
 		88558F981F272C3300005C65 /* MXPAddTagToolbar.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXPAddTagToolbar.xib; sourceTree = "<group>"; };
 		88558F9A1F2825A300005C65 /* MXPAddTagViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPAddTagViewController.h; sourceTree = "<group>"; };
 		88558F9B1F2825A300005C65 /* MXPAddTagViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPAddTagViewController.m; sourceTree = "<group>"; };
+		88558F9D1F283EDA00005C65 /* MXPTagButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPTagButton.h; sourceTree = "<group>"; };
+		88558F9E1F283EDA00005C65 /* MXPTagButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPTagButton.m; sourceTree = "<group>"; };
 		8866B8901C756DDE0092D10F /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
 		886731831F20562500CFCA26 /* MXPMeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPMeCell.h; sourceTree = "<group>"; };
 		886731841F20562500CFCA26 /* MXPMeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPMeCell.m; sourceTree = "<group>"; };
@@ -598,6 +601,8 @@
 				88558F951F272C2000005C65 /* MXPAddTagToolbar.h */,
 				88558F961F272C2000005C65 /* MXPAddTagToolbar.m */,
 				88558F981F272C3300005C65 /* MXPAddTagToolbar.xib */,
+				88558F9D1F283EDA00005C65 /* MXPTagButton.h */,
+				88558F9E1F283EDA00005C65 /* MXPTagButton.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -881,6 +886,7 @@
 				88CF2E501F15BC6F00324406 /* MXPComment.m in Sources */,
 				88CF2E581F185B9D00324406 /* MXPCommentHeaderView.m in Sources */,
 				88F3CB191C7C845C0042CA14 /* MXPRecommendCategoryModel.m in Sources */,
+				88558F9F1F283EDA00005C65 /* MXPTagButton.m in Sources */,
 				88D205461EE6CF12002AA218 /* MXPRecommendTagsModel.m in Sources */,
 				8887A71E1F04DF4A009E736C /* NSDate+MXPExtension.m in Sources */,
 				88251E011C71689800787D10 /* UIBarButtonItem+MXPExtension.m in Sources */,
