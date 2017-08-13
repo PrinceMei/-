@@ -44,6 +44,7 @@
 		886C98E71EEA2DF700C2C9FE /* MXPWhiteTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 886C98E61EEA2DF700C2C9FE /* MXPWhiteTextField.m */; };
 		886C98EA1EEC2B7600C2C9FE /* MXPPushGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 886C98E91EEC2B7600C2C9FE /* MXPPushGuideView.m */; };
 		886C98EC1EEC2BEA00C2C9FE /* MXPPushGuideView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 886C98EB1EEC2BEA00C2C9FE /* MXPPushGuideView.xib */; };
+		887528FD1F40515900EEFE7B /* MXPTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 887528FC1F40515800EEFE7B /* MXPTextField.m */; };
 		8887A70D1F038824009E736C /* MXPTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = 8887A70C1F038824009E736C /* MXPTopic.m */; };
 		8887A7101F0489B2009E736C /* MXPConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 8887A70F1F0489B2009E736C /* MXPConst.m */; };
 		8887A7141F049E93009E736C /* MXPTopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8887A7121F049E93009E736C /* MXPTopicCell.m */; };
@@ -170,6 +171,8 @@
 		886C98E81EEC2B7600C2C9FE /* MXPPushGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPPushGuideView.h; sourceTree = "<group>"; };
 		886C98E91EEC2B7600C2C9FE /* MXPPushGuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPPushGuideView.m; sourceTree = "<group>"; };
 		886C98EB1EEC2BEA00C2C9FE /* MXPPushGuideView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXPPushGuideView.xib; sourceTree = "<group>"; };
+		887528FB1F40515800EEFE7B /* MXPTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPTextField.h; sourceTree = "<group>"; };
+		887528FC1F40515800EEFE7B /* MXPTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPTextField.m; sourceTree = "<group>"; };
 		8887A70B1F038824009E736C /* MXPTopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPTopic.h; sourceTree = "<group>"; };
 		8887A70C1F038824009E736C /* MXPTopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPTopic.m; sourceTree = "<group>"; };
 		8887A70E1F0489B2009E736C /* MXPConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPConst.h; sourceTree = "<group>"; };
@@ -603,6 +606,8 @@
 				88558F981F272C3300005C65 /* MXPAddTagToolbar.xib */,
 				88558F9D1F283EDA00005C65 /* MXPTagButton.h */,
 				88558F9E1F283EDA00005C65 /* MXPTagButton.m */,
+				887528FB1F40515800EEFE7B /* MXPTextField.h */,
+				887528FC1F40515800EEFE7B /* MXPTextField.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -913,6 +918,7 @@
 				88F78DAA1D1E750400E73E39 /* MXPUtility.m in Sources */,
 				88CF2E481F14B0E500324406 /* MXPTopicVoiceView.m in Sources */,
 				88A51E761F1F511100A6A3B1 /* UIImageView+MXPExtension.m in Sources */,
+				887528FD1F40515900EEFE7B /* MXPTextField.m in Sources */,
 				88251DFC1C71689800787D10 /* MXPEssenceViewController.m in Sources */,
 				88251E021C71689800787D10 /* UIView+MXPExtension.m in Sources */,
 				88D205431EE6CB25002AA218 /* MXPRecommendTagsViewController.m in Sources */,
