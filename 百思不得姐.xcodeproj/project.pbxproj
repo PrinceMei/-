@@ -21,6 +21,7 @@
 		88251E041C71689800787D10 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 88251DF61C71689800787D10 /* main.m */; };
 		88251E051C71689800787D10 /* MXPTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 88251DFB1C71689800787D10 /* MXPTabBar.m */; };
 		882D46931F0CBBCB001ED9CE /* MXPCircularProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 882D46921F0CBBCB001ED9CE /* MXPCircularProgressView.m */; };
+		8841BF311F4580D200528969 /* BLStopwatch.m in Sources */ = {isa = PBXBuildFile; fileRef = 8841BF301F4580D200528969 /* BLStopwatch.m */; };
 		88501C471F05F40300E76298 /* MXPTopicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 88501C461F05F40300E76298 /* MXPTopicViewController.m */; };
 		88501C4A1F06459600E76298 /* MXPTopicPictureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 88501C491F06459600E76298 /* MXPTopicPictureView.m */; };
 		88501C4C1F06460D00E76298 /* MXPTopicPictureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88501C4B1F06460C00E76298 /* MXPTopicPictureView.xib */; };
@@ -52,6 +53,9 @@
 		8887A71E1F04DF4A009E736C /* NSDate+MXPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8887A71D1F04DF4A009E736C /* NSDate+MXPExtension.m */; };
 		889070C01D051E6700D505AB /* MXPRecommendUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 889070BE1D051E6700D505AB /* MXPRecommendUserCell.m */; };
 		889070C11D051E6700D505AB /* MXPRecommendUserCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 889070BF1D051E6700D505AB /* MXPRecommendUserCell.xib */; };
+		889735251FF4BDE500404288 /* MXPSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 889735241FF4BDE500404288 /* MXPSettingViewController.m */; };
+		889735281FF4D3B300404288 /* MXPLoginVerificationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 889735271FF4D3B300404288 /* MXPLoginVerificationTool.m */; };
+		8897352B1FF4DF4300404288 /* UIColor+MXPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8897352A1FF4DF4300404288 /* UIColor+MXPExtension.m */; };
 		88A51E6D1F1DE0AA00A6A3B1 /* MXPTopWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A51E6C1F1DE0AA00A6A3B1 /* MXPTopWindow.m */; };
 		88A51E731F1F41D500A6A3B1 /* UIImage+MXPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A51E721F1F41D500A6A3B1 /* UIImage+MXPExtension.m */; };
 		88A51E761F1F511100A6A3B1 /* UIImageView+MXPExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 88A51E751F1F511100A6A3B1 /* UIImageView+MXPExtension.m */; };
@@ -132,6 +136,8 @@
 		88251DFB1C71689800787D10 /* MXPTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPTabBar.m; sourceTree = "<group>"; };
 		882D46911F0CBBCB001ED9CE /* MXPCircularProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPCircularProgressView.h; sourceTree = "<group>"; };
 		882D46921F0CBBCB001ED9CE /* MXPCircularProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPCircularProgressView.m; sourceTree = "<group>"; };
+		8841BF2F1F4580D200528969 /* BLStopwatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLStopwatch.h; sourceTree = "<group>"; };
+		8841BF301F4580D200528969 /* BLStopwatch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BLStopwatch.m; sourceTree = "<group>"; };
 		88501C451F05F40300E76298 /* MXPTopicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPTopicViewController.h; sourceTree = "<group>"; };
 		88501C461F05F40300E76298 /* MXPTopicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPTopicViewController.m; sourceTree = "<group>"; };
 		88501C481F06459600E76298 /* MXPTopicPictureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPTopicPictureView.h; sourceTree = "<group>"; };
@@ -185,6 +191,12 @@
 		889070BD1D051E6700D505AB /* MXPRecommendUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPRecommendUserCell.h; sourceTree = "<group>"; };
 		889070BE1D051E6700D505AB /* MXPRecommendUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPRecommendUserCell.m; sourceTree = "<group>"; };
 		889070BF1D051E6700D505AB /* MXPRecommendUserCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MXPRecommendUserCell.xib; sourceTree = "<group>"; };
+		889735231FF4BDE500404288 /* MXPSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXPSettingViewController.h; sourceTree = "<group>"; };
+		889735241FF4BDE500404288 /* MXPSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXPSettingViewController.m; sourceTree = "<group>"; };
+		889735261FF4D3B300404288 /* MXPLoginVerificationTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MXPLoginVerificationTool.h; sourceTree = "<group>"; };
+		889735271FF4D3B300404288 /* MXPLoginVerificationTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MXPLoginVerificationTool.m; sourceTree = "<group>"; };
+		889735291FF4DF4300404288 /* UIColor+MXPExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+MXPExtension.h"; sourceTree = "<group>"; };
+		8897352A1FF4DF4300404288 /* UIColor+MXPExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+MXPExtension.m"; sourceTree = "<group>"; };
 		88A51E6B1F1DE0AA00A6A3B1 /* MXPTopWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXPTopWindow.h; sourceTree = "<group>"; };
 		88A51E6C1F1DE0AA00A6A3B1 /* MXPTopWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXPTopWindow.m; sourceTree = "<group>"; };
 		88A51E711F1F41D500A6A3B1 /* UIImage+MXPExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MXPExtension.h"; sourceTree = "<group>"; };
@@ -436,6 +448,8 @@
 				8867318F1F20930600CFCA26 /* MXPWebViewController.h */,
 				886731901F20930600CFCA26 /* MXPWebViewController.m */,
 				886731911F20930600CFCA26 /* MXPWebViewController.xib */,
+				889735231FF4BDE500404288 /* MXPSettingViewController.h */,
+				889735241FF4BDE500404288 /* MXPSettingViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -498,6 +512,7 @@
 		88251DEB1C71689800787D10 /* Other-其他 */ = {
 			isa = PBXGroup;
 			children = (
+				8841BF2E1F4580B900528969 /* Tool */,
 				88251DEE1C71689800787D10 /* Category */,
 				88251DF71C71689800787D10 /* Model */,
 				88251DF91C71689800787D10 /* View */,
@@ -508,6 +523,8 @@
 				88251DF81C71689800787D10 /* PrefixHeader.pch */,
 				8887A70E1F0489B2009E736C /* MXPConst.h */,
 				8887A70F1F0489B2009E736C /* MXPConst.m */,
+				889735261FF4D3B300404288 /* MXPLoginVerificationTool.h */,
+				889735271FF4D3B300404288 /* MXPLoginVerificationTool.m */,
 			);
 			path = "Other-其他";
 			sourceTree = "<group>";
@@ -526,6 +543,8 @@
 				88A51E721F1F41D500A6A3B1 /* UIImage+MXPExtension.m */,
 				88A51E741F1F511100A6A3B1 /* UIImageView+MXPExtension.h */,
 				88A51E751F1F511100A6A3B1 /* UIImageView+MXPExtension.m */,
+				889735291FF4DF4300404288 /* UIColor+MXPExtension.h */,
+				8897352A1FF4DF4300404288 /* UIColor+MXPExtension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -560,6 +579,15 @@
 				88A51E6C1F1DE0AA00A6A3B1 /* MXPTopWindow.m */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		8841BF2E1F4580B900528969 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				8841BF2F1F4580D200528969 /* BLStopwatch.h */,
+				8841BF301F4580D200528969 /* BLStopwatch.m */,
+			);
+			name = Tool;
 			sourceTree = "<group>";
 		};
 		886731961F20D05800CFCA26 /* Pulish-发布 */ = {
@@ -889,6 +917,7 @@
 				8887A7101F0489B2009E736C /* MXPConst.m in Sources */,
 				88D2054F1EE81BAC002AA218 /* MXPLoginRegisterViewController.m in Sources */,
 				88CF2E501F15BC6F00324406 /* MXPComment.m in Sources */,
+				889735281FF4D3B300404288 /* MXPLoginVerificationTool.m in Sources */,
 				88CF2E581F185B9D00324406 /* MXPCommentHeaderView.m in Sources */,
 				88F3CB191C7C845C0042CA14 /* MXPRecommendCategoryModel.m in Sources */,
 				88558F9F1F283EDA00005C65 /* MXPTagButton.m in Sources */,
@@ -899,12 +928,14 @@
 				88251DFD1C71689800787D10 /* MXPFriendTrendsViewController.m in Sources */,
 				886C98E71EEA2DF700C2C9FE /* MXPWhiteTextField.m in Sources */,
 				88D205531EE8382F002AA218 /* MXPVerticalButton.m in Sources */,
+				8897352B1FF4DF4300404288 /* UIColor+MXPExtension.m in Sources */,
 				8810B7F41F0BCB3B00A0E413 /* MXPShowPictureViewController.m in Sources */,
 				88251DFE1C71689800787D10 /* MXPMeViewController.m in Sources */,
 				88A51E731F1F41D500A6A3B1 /* UIImage+MXPExtension.m in Sources */,
 				88F4CBED1C718FE4000A7176 /* MXPNavigationController.m in Sources */,
 				886731851F20562500CFCA26 /* MXPMeCell.m in Sources */,
 				88501C471F05F40300E76298 /* MXPTopicViewController.m in Sources */,
+				889735251FF4BDE500404288 /* MXPSettingViewController.m in Sources */,
 				88251E051C71689800787D10 /* MXPTabBar.m in Sources */,
 				8867318E1F20770E00CFCA26 /* MXPSqaureButton.m in Sources */,
 				88D2054A1EE6D333002AA218 /* MXPRecommendTagsCell.m in Sources */,
@@ -920,6 +951,7 @@
 				88A51E761F1F511100A6A3B1 /* UIImageView+MXPExtension.m in Sources */,
 				887528FD1F40515900EEFE7B /* MXPTextField.m in Sources */,
 				88251DFC1C71689800787D10 /* MXPEssenceViewController.m in Sources */,
+				8841BF311F4580D200528969 /* BLStopwatch.m in Sources */,
 				88251E021C71689800787D10 /* UIView+MXPExtension.m in Sources */,
 				88D205431EE6CB25002AA218 /* MXPRecommendTagsViewController.m in Sources */,
 				88F4CBF31C72048C000A7176 /* MXPRecommendTrendsViewController.m in Sources */,
